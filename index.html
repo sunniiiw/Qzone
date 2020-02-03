@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>QQ空间-分享生活，留住感动</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
@@ -16,22 +17,20 @@
         />
         <div class="login-box quick-login" id="quick-login">
           <div class="login-header">
-            <h3>快速登录</h3>
+            <h3>快速安全登录</h3>
             <p>
-              推荐使用<a href="#" onclick="handleSwitchBack()">账号密码登录</a
-              >，防止盗号。
+              请使用<a href="#" onclick="handleSwitchBack()">QQ手机版</a
+              >扫描二维码，
             </p>
+            <p>安全登录，防止盗号</p>
           </div>
-          <form>
-            <input
-              type="email,tel,qq id"
-              placeholder="支持QQ号/邮箱/手机号登录"
-            />
-            <input type="password" placeholder="密码" />
-            <button><a href="#">登 录</a></button>
-          </form>
+          <div class="login-code-container">
+            <div class="login-qr-code">
+              <img src="QRcode.jpg" alt="QRcode" />
+            </div>
+          </div>
           <div class="login-footer">
-            <a href="https://ssl.ptlogin2.qq.com/ptui_forgetpwd">忘了密码？</a>
+            <a href="#" onclick="handleSwitchBack()">账号密码登录</a>
             <span>|</span>
             <a href="">注册新账号</a>
             <span>|</span>
@@ -55,11 +54,15 @@
             <button><a href="#">登 录</a></button>
           </form>
           <div class="login-footer">
-            <a href="https://ssl.ptlogin2.qq.com/ptui_forgetpwd">忘了密码？</a>
+            <a
+              href="https://aq.qq.com/v2/uv_aq/html/reset_pwd/pc_reset_pwd_input_account.html?v=3.0&old_ver_account="
+              target="_blank"
+              >忘了密码？</a
+            >
             <span>|</span>
-            <a href="">注册新账号</a>
+            <a href="https://ssl.zc.qq.com/v3/index-en.html" target="_blank">注册新账号</a>
             <span>|</span>
-            <a href="">意见反馈</a>
+            <a href="https://support.qq.com/products/14800" target="_blank">意见反馈</a>
           </div>
         </div>
       </div>
@@ -70,15 +73,15 @@
             <p>iPhone</p>
           </a>
           <a href="#" class="hvr-bob">
-            <i class="fas fa-tablet-alt"></i>
+            <img src="Ipad.png" alt="iPad logo" />
             <p>iPad</p>
           </a>
           <a href="#" class="hvr-bob">
-            <i class="fab fa-android"></i>
+            <img src="android.png" alt="android logo" />
             <p>Android</p>
           </a>
           <a href="#" class="hvr-bob">
-            <i class="fab fa-windows"></i>
+            <img src="windows.png" alt="windows logo" />
             <p>Windows Phone</p>
           </a>
           <a href="#" class="hvr-bob">
@@ -145,8 +148,8 @@
           </p>
         </div>
       </footer>
-      div.
     </div>
+    <p class="background-description">背景来源<a href="">腾讯ISUX</a></p>
     <script
       src="https://kit.fontawesome.com/a62b29f649.js"
       crossorigin="anonymous"
